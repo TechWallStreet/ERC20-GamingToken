@@ -270,11 +270,11 @@ contract BurnableToken is StandardToken {
 
 contract MANAToken is BurnableToken, PausableToken, MintableToken {
 
-    string public constant symbol = "MANA";
+    string public constant symbol = "GMEX";
 
-    string public constant name = "Decentraland MANA";
+    string public constant name = "Gamify GMEX";
 
-    uint8 public constant decimals = 18;
+    uint8 public constant decimals = 9;
 
     function burn(uint256 _value) whenNotPaused public {
         super.burn(_value);
